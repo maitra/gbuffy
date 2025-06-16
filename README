@@ -34,7 +34,10 @@
      * Support for IMAP mailboxes
        
   Status
-  
+
+   Current version: 0.2.8
+   Fixed Makefile.in to modify the install target (see CHANGES).
+
    Current Version: 0.2.7
    
    Currently, GBuffy is ALPHA code. It is fairly stable, but may contain
