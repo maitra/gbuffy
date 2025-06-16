@@ -1,0 +1,71 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+/*
+ * config file for xbuffy.  
+ */
+
+
+/* if you want Xbuffy to try to use Content-Length: headers uncomment the
+ * following 
+ */
+#undef USE_CONTENT_LENGTH
+
+/* Version Information */
+#undef VERSION
+
+/* enable NNTP mailboxes? */
+#undef USE_NNTP
+
+/* Default NNTP Server */ 
+#undef NNTP_SERVER
+
+/* enable keyboard LED blinking? */
+#undef USE_LED
+
+/* build as a GNOME Applet */
+#undef GNOME_APPLET
+
+/* Does your system have the snprintf() call? */
+#undef HAVE_SNPRINTF
+
+/* Does your system have the vsnprintf() call? */
+#undef HAVE_VSNPRINTF
+
+/* program to use for shell commands */
+#define EXECSHELL "/bin/sh"
+
+/* Enable SSL? */
+#undef HAVE_SSL
+
+/* Enable debugging info */
+#undef DEBUG
+
+
+/* Define to 1 if you have the `compface' library (-lcompface). */
+#undef HAVE_LIBCOMPFACE
+
+/* Define to 1 if you have the `setpriority' function. */
+#undef HAVE_SETPRIORITY
+
+/* Define to 1 if you have the `utimes' function. */
+#undef HAVE_UTIMES
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
